@@ -1,0 +1,46 @@
+/* Footer */
+
+footer {
+    background-color: #435e80;
+    opacity: 0.9;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0 !important;
+}
+
+.col-lg-6 {
+    padding: 0;
+}
+
+footer p {
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+}
+
+/* Social links */
+
+.social-links-container {
+    padding-top: 1px;
+}
+
+.social-links-container ul {
+    margin: 0;
+}
+
+.social-links-container i {
+    color: #0d4500;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.social-links-container i:hover {
+    transition: all 0.5s ease-in-out;
+    color: #091a8d;
+}
