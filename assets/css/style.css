@@ -50,6 +50,39 @@ h5 {
     border-radius: 20px;
 }
 
+/* Search type */
+
+.type-container ul {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.type-container i {
+    background-color: #206f74;
+    border-radius: 15px;
+    padding: 5px;
+    height: 100px;
+    width: 130px;
+    opacity: 0.7;
+    transition: all 0.5s ease-in-out;
+}
+
+.type-container i:hover {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#bar i {
+    padding: 8px;
+}
+
+.type-container p {
+    font-weight: 800;
+}
+
 /* Footer */
 
 footer {

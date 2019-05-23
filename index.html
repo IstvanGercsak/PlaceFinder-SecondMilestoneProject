@@ -18,8 +18,9 @@
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
 </head>
 <body>
-
 <section>
+    <!-- SEARCH -->
+
     <h1>Which city would you like to travel?<br></h1>
     <h4>Please type the city's name and choose from the list</h4>
     <div class="container-fluid">
@@ -31,6 +32,25 @@
     <!-- ICONS -->
 
     <h5>What are you looking for? (click on it!)</h5>
+
+    <div class="container-fluid">
+        <div class="row type-container">
+            <ul class="list-inline">
+                <li id="museum" class="list-inline-item" onclick="initMuseumMap()">
+                    <i class="fas fa-university fa-5x"></i>
+                    <p>Museums</p>
+                </li>
+                <li id="restaurant" class="list-inline-item" onclick="initRestaurantMap()">
+                    <i class="fas fa-hamburger fa-5x"></i>
+                    <p>Restaurants</p>
+                </li>
+                <li id="bar" class="list-inline-item" onclick="initBarMap()">
+                    <i class="fas fa-glass-cheers fa-5x"></i>
+                    <p>Bars</p>
+                </li>
+            </ul>
+        </div>
+    </div>
 </section>
 
 <footer class="container-fluid">
