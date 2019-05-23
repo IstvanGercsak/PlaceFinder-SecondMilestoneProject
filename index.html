@@ -51,6 +51,29 @@
             </ul>
         </div>
     </div>
+
+    <!-- MAP -->
+
+    <div class="container-fluid map-container">
+        <div class="row" id="map"></div>
+    </div>
+
+    <!-- RESULTS -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <ul id="places"></ul>
+        </div>
+    </div>
+
+    <!-- MORE RESULT -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <button id="more">More results</button>
+        </div>
+    </div>
+
 </section>
 
 <footer class="container-fluid">
@@ -68,5 +91,12 @@
         </div>
     </div>
 </footer>
+<script src="assets/js/goToMap.js"></script>
+<script src="assets/js/findMuseum.js"></script>
+<script src="assets/js/findBars.js"></script>
+<script src="assets/js/findRestaurant.js"></script>
+<script src="assets/js/places.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtRwOm65-mxXVVt4lLrE7mQ-PW1tdR5O8&language=en&libraries=places&callback=placesearch&libraries=places">
+</script>
 </body>
 </html>
