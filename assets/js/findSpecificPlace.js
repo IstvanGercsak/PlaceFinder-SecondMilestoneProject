@@ -1,13 +1,11 @@
 var zoom = 14;
 var my_API_key = "AIzaSyDtRwOm65-mxXVVt4lLrE7mQ-PW1tdR5O8";
-var map;
 
 function findSpecificPlace(findSpecificPlace) {
 
     $("#places>li").remove();
     $("#map").show();
 
-    // Create the map.
     var searchedPlace = $('#search').val();
     var xhr = new XMLHttpRequest();
 
@@ -24,6 +22,7 @@ function findSpecificPlace(findSpecificPlace) {
 
         xhr.onreadystatechange = function () {
             if (this.readyState === 4 && this.status === 200) {
+                var map;
                 var getLat = JSON.parse(this.responseText).results[0].geometry.location.lat;
                 var getLng = JSON.parse(this.responseText).results[0].geometry.location.lng;
 
@@ -49,7 +48,7 @@ function findSpecificPlace(findSpecificPlace) {
                     function (results, status, pagination) {
                         if (status !== 'OK') return;
 
-                        createMarkers(results);
+                        createMarkers(results, map);
 
                         moreButton.disabled = !pagination.hasNextPage;
 
@@ -59,7 +58,7 @@ function findSpecificPlace(findSpecificPlace) {
                     });
             }
 
-            function createMarkers(places) {
+            function createMarkers(places, map) {
                 var bounds = new google.maps.LatLngBounds();
                 var placesList = document.getElementById('places');
 
