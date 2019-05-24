@@ -36,15 +36,15 @@
     <div class="container-fluid">
         <div class="row type-container">
             <ul class="list-inline">
-                <li id="museum" class="list-inline-item" onclick="initMuseumMap()">
+                <li id="museum" class="list-inline-item" onclick="findSpecificPlace($('#museum').attr('id'))">
                     <i class="fas fa-university fa-5x"></i>
                     <p>Museums</p>
                 </li>
-                <li id="restaurant" class="list-inline-item" onclick="initRestaurantMap()">
+                <li id="restaurant" class="list-inline-item" onclick="findSpecificPlace($('#restaurant').attr('id'))">
                     <i class="fas fa-hamburger fa-5x"></i>
                     <p>Restaurants</p>
                 </li>
-                <li id="bar" class="list-inline-item" onclick="initBarMap()">
+                <li id="bar" class="list-inline-item" onclick="findSpecificPlace($('#bar').attr('id'))">
                     <i class="fas fa-glass-cheers fa-5x"></i>
                     <p>Bars</p>
                 </li>
@@ -92,9 +92,7 @@
     </div>
 </footer>
 <script src="assets/js/goToMap.js"></script>
-<script src="assets/js/findMuseum.js"></script>
-<script src="assets/js/findBars.js"></script>
-<script src="assets/js/findRestaurant.js"></script>
+<script src="assets/js/findSpecificPlace.js"></script>
 <script src="assets/js/places.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtRwOm65-mxXVVt4lLrE7mQ-PW1tdR5O8&language=en&libraries=places&callback=placesearch&libraries=places">
 </script>

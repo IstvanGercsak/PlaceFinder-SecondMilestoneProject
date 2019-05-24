@@ -2,7 +2,7 @@ var zoom = 14;
 var my_API_key = "AIzaSyDtRwOm65-mxXVVt4lLrE7mQ-PW1tdR5O8";
 var map;
 
-function initMuseumMap() {
+function findSpecificPlace(findSpecificPlace) {
 
     $("#places>li").remove();
     $("#map").show();
@@ -45,7 +45,7 @@ function initMuseumMap() {
 
                 // Perform a nearby search.
                 service.nearbySearch(
-                    {location: actualCity, radius: 1500, type: ['museum']},
+                    {location: actualCity, radius: 1500, type: [findSpecificPlace]},
                     function (results, status, pagination) {
                         if (status !== 'OK') return;
 
