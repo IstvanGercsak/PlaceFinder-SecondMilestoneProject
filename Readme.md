@@ -1,27 +1,52 @@
 # Place Finder - Second Milestone Project
+READY
 
-One or two paragraphs providing an overview of your project.
+This website was made as my second Milestone project at [Code Institute](https://codeinstitute.net/).
+The main goal was to create frontend-only website using the technologies that I learned in the second phase and heavily based on JavaScript and its jQuery library and also on Google API libraries.
+The application itself help to us to find cities around the world and we get back a list from Museums, Restaurants and Bars around that area.
+Moreover we can see those places position on the Map with Markers to find them and plan holiday more easily around that area.
+The site is a single page website therefore very simple and easy to use and don't need any special technical skills to use it.  
+After we give a destination there is only one click and we get back results. It is also easy to use with one hand when we check it on our phones.
 
-Essentially, this part is your sales pitch.
- 
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+READY
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+This website is created for everybody who want to use it to find a good holiday destinations.
+I used bright colors and background to ensure that this site has a user friendly and smooth surface.
+The website is responsive so it can be used also on PC, Tabled or on mobile device with the same functionality respectively.
+- Input type:
+    - type=search, so in this way it became more straightforward and user friendly.
+- Font:
+    - I use Nunito font, because it is easy and comfortable to read. I imported that font through the .css style file from the google fonts repository.
+- Icons:
+    - I use Font Awesome icon toolkit for the search filter section(Museum, Restaurant, Bar) and the social link icons.#
+- Hover effects:
+    - Filter section
+        - Museum
+        - Restaurant
+        - Bar
+    - Social links
+        - Github
+        - LinkedIn
+- Smooth movement to the map after choose the filter
+- Favicon (Shortcut icon) with "pinpoint" sign on the page.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 **Created with [Balsamiq Mockups 3](https://balsamiq.com/) that is a user interface design tool**
 
 - **Home page**:
 
-## Features
+![Home page](Mockup/HomePage.png)
 
+##User Stories
+TODO
+
+## Features
+TODO
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
+
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -30,9 +55,11 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
+TODO
 - Another feature idea
 
 ## Technologies Used
+READY
 
 - [HTML5](https://www.w3.org/html/)
     - Hypertext Markup Language is the standard markup language for creating web pages and web applications.
@@ -55,6 +82,7 @@ In addition, you may also use this section to discuss plans for additional featu
         - Google Places API
 
 ## Testing
+TODO
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -75,6 +103,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
+READY
 
 - **Set up**:
     - I use local IDE for create the project, I installed the Git locally and synchronized my local IDE 
@@ -85,6 +114,8 @@ If this section grows too long, you may want to split it off into a separate fil
     bigger section that gives value to my project I pushed my modification to my GitHub repository.
 
 ### Media
+READY
+
 - The photos used in this site were obtained from:
 
     - Favicon:
