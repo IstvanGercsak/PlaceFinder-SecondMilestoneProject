@@ -34,8 +34,6 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [HTML5](https://www.w3.org/html/)
     - Hypertext Markup Language is the standard markup language for creating web pages and web applications.
 - [CSS3](https://www.w3.org/Style/CSS/)
@@ -44,14 +42,17 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [BootStrap 4.3.1](https://getbootstrap.com/docs/3.3/)
     - Front End Framework for developing responsive websites.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-    - Description
+    - JavaScript is a lightweight interpreted or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages.
 - [JQuery 3.4.1](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses to simplify DOM manipulation.
 - [Git](https://git-scm.com/)
     - Git is a distributed version-control system for tracking changes in source code during software development.
 - [GitHub](https://github.com/)
     -  GitHub Inc. is a web-based hosting service for version control using Git.
-
+- [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/tutorial)
+    - The Maps JavaScript API lets you customize maps with your own content.
+    - Library used:
+        - Google Places API
 
 ## Testing
 
@@ -75,32 +76,21 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
-## Credits
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- **Set up**:
+    - I use local IDE for create the project, I installed the Git locally and synchronized my local IDE 
+    with the local git. I use IntelliJ Pycharm for the front end development with its helpful built in deployment tools. 
+    After I created a Git and GitHub repository, I could start to work and I could test my features locally.
+- **Commits**:
+    - After every small piece and increment, I made commit to my local Git repository. After that in the end of the 
+    bigger section that gives value to my project I pushed my modification to my GitHub repository.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from:
 
-- Favicon:
+    - Favicon:
 
-    - http://dreammaker.co.in/images/map-marker3.png
+        - http://dreammaker.co.in/images/map-marker3.png
 
-- Wallpaper:
+    - Wallpaper:
 
-    - https://wallpapershome.com/travel/fuji-japan-travel-tourism-national-geographic-traveler-10326.html?page=222
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+        - https://wallpapershome.com/travel/fuji-japan-travel-tourism-national-geographic-traveler-10326.html?page=222
