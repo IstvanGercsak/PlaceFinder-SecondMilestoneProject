@@ -1,4 +1,4 @@
-function placesearch() {
+function placeSearch() {
     var input = document.getElementById("search");
 
     var options = {types: ['(cities)']};
