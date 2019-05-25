@@ -1,5 +1,5 @@
 # Place Finder - Second Milestone Project
-
+[View my project](https://istvangercsak.github.io/PlaceFinder-SecondMilestoneProject/)
 
 This website was made as my second Milestone project at [Code Institute](https://codeinstitute.net/).
 The main goal was to create frontend-only website using the technologies that I learned in the second phase and heavily based on JavaScript and its jQuery library and also on Google API libraries.
@@ -39,7 +39,8 @@ The website is responsive so it can be used also on PC, Tablet or mobile device 
 
 ![Home page](Mockup/HomePage.png)
 
-##User Stories
+
+## User Stories
 
 ### Responsive:
 
@@ -53,7 +54,7 @@ The website is responsive so it can be used also on PC, Tablet or mobile device 
 ### Effects:
 
 - As a user I want to see the hover effect on the filter icons so that I can see there is interaction wih those elements.
-- As a user I want to see the hover effect on the social link so that I can see there is interaction wih that element.
+- As a user I want to see the hover effect on the social links so that I can see there is interaction wih that element.
 
 ### Social links:
 
@@ -73,7 +74,7 @@ With this page you can find a museums, restaurants and bars around that area tha
 - Button:    
     - If in the first round we find more than 20 places the "More result" button become active 
     - If there are no more result, the "More result" button become disabled
-    - If there is no result around the area at all, the "More result" button become disabled
+    - If there is no result around the area at all the "More result" button become disabled
 - Hover effects:
     - Filter section
         - Museum
@@ -149,7 +150,7 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 
     - I hover my mouse over the social links and I can see the transition effect
     - I hover my mouse over the filter icons and I can see the transition effect
-    - After I chose my destination and my filter that page will scroll down to he map
+    - After I chose my destination and my filter that page will scroll down to the map
 
 - Social link
     - I click on the <social_link> social link and the page will open in a new tab
