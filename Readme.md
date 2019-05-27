@@ -193,10 +193,28 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
     - I use local IDE for create the project, I installed the Git locally and synchronized my local IDE 
     with the local git. I use IntelliJ Pycharm for the front end development with its helpful built in deployment tools. 
     After I created a Git and GitHub repository, I could start to work and I could test my features locally.
+    I could see my changes locally to open my index.html file with the View/Open browser menu option.
+    Here I could choose the required browser which I want to use. (Chrome, Mozilla, etc.)
 - **Commits**:
     - After every small piece and increment, I made commit to my local Git repository. After that in the end of the 
-    bigger section that gives value to my project I pushed my modification to my GitHub repository.
-
+    bigger section that gives value to my project I pushed my modification to my online GitHub repository.
+    - For the development I only use one branch called "master" as there were not need more branch.
+- **Local and online deployment**
+    - Locally: It is very easy to clone repository from my account if you follow these steps:
+        1. Follow this link [Project GitHub repository](https://github.com/IstvanGercsak/PlaceFinder-SecondMilestoneProject) 
+        2. Under the repository name, click "Clone or download".
+        3. Here you have to copy the url's of the repository
+        4. In your local IDE you can choose to create new project from version control/Git 
+        5. Paste the link there that you copied before
+        6. For additional help you can more information under this [link](https://help.github.com/en/articles/cloning-a-repository)
+        
+    - Online:
+        - When there was a working increment after pushing it to my online GitHub repository I could test it online with real usage.
+        For this I followed these steps:
+            1. Under [my project GitHub directory](https://github.com/IstvanGercsak/PlaceFinder-SecondMilestoneProject) from the menu items I clicked on the Settings 
+            2. Under the GitHub Pages section I could set up my online site from my master branch.
+            3. After few minutes the online deployed site was available the given [link](https://istvangercsak.github.io/PlaceFinder-SecondMilestoneProject/)
+          
 ### Media
 
 - The photos used in this site were obtained from:
