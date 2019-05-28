@@ -3,6 +3,7 @@ var my_API_key = "AIzaSyDtRwOm65-mxXVVt4lLrE7mQ-PW1tdR5O8";
 
 function findSpecificPlace(findSpecificPlace) {
 
+    $("#reset").show();
     $("#places>li").remove();
     $("#map").show();
 
