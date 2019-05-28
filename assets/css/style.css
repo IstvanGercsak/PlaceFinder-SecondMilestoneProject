@@ -136,6 +136,16 @@ h5 {
     border-radius: 25px;
 }
 
+.reset-button-container {
+    text-align: center;
+}
+
+#reset {
+    width: 150px;
+    white-space: nowrap;
+    margin: 0 auto 15px auto;
+}
+
 /* Footer */
 
 footer {
