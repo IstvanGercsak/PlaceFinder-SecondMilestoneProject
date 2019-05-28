@@ -16,6 +16,13 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_UbCoPC43RLfiM2XQAtuaB");
+        })();
+    </script>
 </head>
 <body>
 
@@ -24,7 +31,7 @@
         <div>
             <h3>If you would like to contact me, you can send me emails.</h3>
         </div>
-        <form class="form-position">
+        <form class="form-position" onsubmit="return sendMail(this);">
             <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
             <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="E-mail"
                    required>
@@ -32,7 +39,8 @@
                    required>
             <textarea rows="6" name="description" class="form-control" id="description"
                       placeholder="Give us the details..." required></textarea>
-            <button type="submit" class="btn btn-primary btn-lg center-block">Send message</button>
+            <button type="submit" class="btn btn-primary btn-lg center-block">Send message
+            </button>
         </form>
     </div>
 </section>
@@ -57,5 +65,28 @@
         </div>
     </div>
 </footer>
+
+<script>
+    function sendMail(contactForm) {
+        emailjs.send("gmail", "second_milestone", {
+            "from_name": contactForm.name.value,
+            "from_email": contactForm.emailaddress.value,
+            "from_tel": contactForm.phonenumber.value,
+            "description": contactForm.description.value
+        })
+            .then(
+                function (response) {
+                    console.log("SUCCESS", response);
+                    alert("The message was sent!")
+                },
+                function (error) {
+                    console.log("FAILED", error);
+                    alert("There was a problem with the sending of the message!")
+                }
+            );
+        return false;  // To block from loading a new page
+    }
+
+</script>
 </body>
 </html>
