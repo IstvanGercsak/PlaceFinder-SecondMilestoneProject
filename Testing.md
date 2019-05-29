@@ -13,10 +13,11 @@ Todo List:
 - Contact Page
 - Set up the EmailJS
 - Explain commit
+- Mockups(Create new for the contact page and expand the existing one)
 
 ##############################################################
 
-Thanks to the "GitHub Pages" option on the GitHub website everybody can reach my website through the below link: https://istvangercsak.github.io/PlaceFinder-SecondMilestoneProject/
+Thanks to the "GitHub Pages" option on the GitHub website everybody can reach my website with clicking on the [link](https://istvangercsak.github.io/PlaceFinder-SecondMilestoneProject/)
 
 I prefer the GitHub Pages option instead of the Cloud9 because it is stable and available 24/7.
 

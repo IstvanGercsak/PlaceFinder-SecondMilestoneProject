@@ -2,11 +2,13 @@
 [View my project](https://istvangercsak.github.io/PlaceFinder-SecondMilestoneProject/)
 
 This website was made as my second Milestone project at [Code Institute](https://codeinstitute.net/).
-The main goal was to create frontend-only website using the technologies that I learned in the second phase and heavily based on JavaScript and its jQuery library and also on Google API libraries.
-The application itself help to us to find cities around the world and we get back a list of Museums, Restaurants and Bars around that area.
+The main goal was to create a simple website which is using the technologies that I learned in the second phase and heavily based on JavaScript and its jQuery library and also on Google API libraries.
+The website itself help to us to find cities around the world and we get back a list of Museums, Restaurants and Bars around that area.
 Moreover we can see those places position on the Map with Markers to find them and plan holiday more easily around that area.
 The site is a single page website therefore very simple and easy to use and don't need any special technical skills to use it.  
 After we give a destination there is only one click and we get back results. It is also easy to use with one hand when we check it on our phones.
+There is another page called contact page with working email sending function. Hence if somebody want to contact me it is possible to do it.
+At the same time the sender will get an automatic reply as well as a feedback and here we can check the correctness of the given personal details.
 
 ## UX
 
@@ -14,23 +16,39 @@ After we give a destination there is only one click and we get back results. It 
 This website is created for everybody who want to use it to find a good holiday destinations.
 I used bright colors and background to ensure that this site has a user friendly and smooth surface.
 The website is responsive so it can be used also on PC, Tablet or mobile device with the same functionality respectively.
-- Input type:
-    - type=search, so in this way it became more straightforward and user friendly.
-- Font:
-    - I use "Nunito" font, because it is easy and comfortable to read. I imported that font through the .css style file from the google fonts repository.
-- Icons:
-    - I use Font Awesome icon toolkit for the search filter section(Museum, Restaurant, Bar) and the social link icons.
-- Hover effects:
-    - Filter section
-        - Museum
-        - Restaurant
-        - Bar
-    - Social links
-        - Github
-        - LinkedIn
-- Smooth movement to the map after choose the filter
-- Favicon (Shortcut icon) with "pinpoint" sign on the page.
+- On the PlaceFinder page:
+    - Input type:
+        - type=search, so in this way it became more straightforward and user friendly.
+    - Font:
+        - I use "Nunito" font, because it is easy and comfortable to read. I imported that font through the .css style file from the google fonts repository.
+    - Icons:
+        - I use Font Awesome icon toolkit for the search filter section(Museum, Restaurant, Bar) and the social link icons.
+    - Hover effects:
+        - Filter section
+            - Museum
+            - Restaurant
+            - Bar
+        - Social links
+            - Github
+            - LinkedIn
+    - Smooth movement to the map after choose the filter
+    - Favicon (Shortcut icon) with "pinpoint" sign on the page.
+    - Navigation link:
+        - Contact page with the envelop icon
 
+- On the Contact page:
+    - Input fields:
+        - Every fields are required
+        - Every field has appropriate format:
+            - Name: type=text
+            - Phone: type=tel
+            - Email: type=email
+            - Description: Text area
+        
+    - Navigation link:
+        - Home page with the home icon
+    - Set up and working EmailJS function.
+    
 - Mockup
 
     - **Created with [Balsamiq Mockups 3](https://balsamiq.com/) that is a user interface design tool**
@@ -115,6 +133,8 @@ With this page you can find a museums, restaurants and bars around that area tha
     - The Maps JavaScript API lets you customize maps with your own content.
     - Library used:
         - Google Places API
+- [EmailJS](https://www.emailjs.com/)
+    - EmailJS helps sending emails using client side technologies only
 
 ## Testing
 
