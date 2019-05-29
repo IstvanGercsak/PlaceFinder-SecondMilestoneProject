@@ -54,9 +54,9 @@ The website is responsive so it can be used also on PC, Tablet or mobile device 
     - **Created with [Balsamiq Mockups 3](https://balsamiq.com/) that is a user interface design tool**
 
     - **Home page**:
-
-![Home page](Mockup/HomePage.png)
-
+    ![Home page](Mockup/PlaceFinder.png)
+    - **Contact page**:
+    ![Contact page](Mockup/ContactPage.png)
 
 ## User Stories
 
