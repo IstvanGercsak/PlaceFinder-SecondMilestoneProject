@@ -145,6 +145,8 @@ h5 {
     display: none;
     width: 150px;
     white-space: nowrap;
+    padding-left: 8px;
+    padding-right: 10px;
     margin: 0 auto 15px auto;
 }
 
@@ -194,6 +196,8 @@ footer p {
     transition: all 0.5s ease-in-out;
     color: #091a8d;
 }
+
+
 
 /*
 ###########################

@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Istvan Gercsak">
     <title>PlaceFinder</title>
-    <!-- JQuerry -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" type="text/css">
+    <!-- JQuerry -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- My StyleSheet-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
 </head>
@@ -77,7 +78,9 @@
     <!--RESET BUTTON-->
     <div class="container-fluid">
         <div class="row reset-button-container">
-            <button id="reset" type="button" class="btn btn-primary btn-lg" onclick="reload()">Reset Search</button>
+            <button id="reset" type="button" class="btn btn-primary btn-lg" onclick="reload()">
+                <i class="fas fa-sync fa-spin"></i>Reset Search
+            </button>
         </div>
     </div>
 
@@ -85,20 +88,27 @@
 
 <footer class="container-fluid">
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-6">
             <p>Second Milestone project - Created by Istvan Gercsak</p>
         </div>
-        <div class="col-lg-4">
-            <a href="contact.html">
-                <button type="button" class="btn btn-primary btn-lg">Contact me</button>
-            </a>
-        </div>
-        <div class="list-inline col-lg-4 social-links-container">
+        <div class="col-lg-6 list-inline social-links-container">
             <ul>
-                <li class="list-inline-item"><a href="https://github.com/IstvanGercsak" target="_blank"><i
-                        class="fab fa-github-square fa-4x"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/istvangercsak/" target="_blank"><i
-                        class="fab fa-linkedin fa-4x"></i></a></li>
+                <li class="list-inline-item">
+                    <a href="contact.html">
+                        <i class="fas fa-envelope-square fa-4x" data-container="body" data-toggle="popover"
+                           data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/IstvanGercsak" target="_blank">
+                        <i class="fab fa-github-square fa-4x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/istvangercsak/" target="_blank">
+                        <i class="fab fa-linkedin fa-4x"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
