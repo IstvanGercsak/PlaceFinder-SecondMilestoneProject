@@ -3,9 +3,9 @@ var my_API_key = "AIzaSyDtRwOm65-mxXVVt4lLrE7mQ-PW1tdR5O8";
 
 function findSpecificPlace(findSpecificPlace) {
 
-    $("#reset").show();
     $("#places>li").remove();
     $("#map").show();
+
 
     var searchedPlace = $('#search').val();
     var xhr = new XMLHttpRequest();
@@ -15,7 +15,7 @@ function findSpecificPlace(findSpecificPlace) {
     } else {
 
         goToMap();
-
+        $("#reset").show();
         $("#more").show();
 
         xhr.open("GET", "https://maps.googleapis.com/maps/api/geocode/json?address=" + searchedPlace + "&key=" + my_API_key);
