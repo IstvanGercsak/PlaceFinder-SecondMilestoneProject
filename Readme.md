@@ -12,105 +12,133 @@ At the same time the sender will get an automatic reply as well as a feedback an
 
 ## UX
 
-
 This website is created for everybody who want to use it to find a good holiday destinations.
 I used bright colors and background to ensure that this site has a user friendly and smooth surface.
 The website is responsive so it can be used also on PC, Tablet or mobile device with the same functionality respectively.
-- On the PlaceFinder page:
-    - Input type:
-        - type=search, so in this way it became more straightforward and user friendly.
+
+## UI
+
+- In General:
     - Font:
         - I use "Nunito" font, because it is easy and comfortable to read. I imported that font through the .css style file from the google fonts repository.
     - Icons:
-        - I use Font Awesome icon toolkit for the search filter section(Museum, Restaurant, Bar) and the social link icons.
-    - Hover effects:
-        - Filter section
+        - I use Font Awesome icon toolkit with the below mentioned icons: 
             - Museum
             - Restaurant
             - Bar
-        - Social links
-            - Github
-            - LinkedIn
-    - Smooth movement to the map after choose the filter
+            - Reset button
+            - Mail
+            - GitHub
+            - LinkedIn 
+            - Home
+    - Hover effects:
+        - Filter section:
+            - Museum icon
+            - Restaurant icon
+            - Bar icon
+        - Social links:
+            - Github icon
+            - LinkedIn icon
+        - Envelop icon
+        - Home Icon
+        - Send Email button
     - Favicon (Shortcut icon) with "pinpoint" sign on the page.
-    - Navigation link:
-        - Contact page with the envelop icon
-
-- On the Contact page:
+- On the Place Finder page I have implemented:
+    - Input type:
+        - "type=search", so in this way it became more straightforward and user friendly to type in the destinations.
+    - Smooth movement to the map after choose the filter
+    - Alert message is the search input field is empty
+- On the Contact page I have implemented:
     - Input fields:
         - Every fields are required
         - Every field has appropriate format:
-            - Name: type=text
-            - Phone: type=tel
-            - Email: type=email
-            - Description: Text area
-        
-    - Navigation link:
-        - Home page with the home icon
+            - Name: "type=text"
+            - Phone: "type=tel"
+            - Email: "type=email"
+            - Description: "Text area"
     - Set up and working EmailJS function.
+    - Hover on the send message
+    - Alert message to notify the user whether the the message was sent or not
     
 - Mockup
 
     - **Created with [Balsamiq Mockups 3](https://balsamiq.com/) that is a user interface design tool**
 
-    - **Home page**:
+    - **Place Finder page**:
     ![Home page](Mockup/PlaceFinder.png)
     - **Contact page**:
     ![Contact page](Mockup/ContactPage.png)
 
 ## User Stories
 
+### Place Finder Page
+
+- As a user, I want to get feedback if the searching field is empty
+- As a user, I want to find cities for holiday destinations
+- As a user, I want to find museums around the searched city
+- As a user, I want to find restaurants around the searched city
+- As a user, I want to find bars around the searched city
+- As a user, I want to see more result if there are more
+- As a user, I want to reset my search
+
+### Contact Page
+
+- As a user, I want to send a message to the creator of the site.
+- As a user, I want to receive an auto-generated message from the creator of the site with my given details.
+- As a user, I want to get feedback whether I fill the fields in wrong type.
+- As a user, I want to get feedback whether I miss a one of the required field.
+- As a user, I want to get feedback whether the message is sent or not.
+
 ### Responsive:
 
-- As a user, I want to use the website with every resolution so that on different devices it will work with the same functionality.
-
-### Field checking:
-
-- As a user I want to look up after my next holiday destination so that I can type the city's name. 
-- As a user I don't want to get back errors during the usage so that I get notify if I do something wrong.
+- As a user, I want to use the website on Pc, Tablet and Mobile Phone so that on different devices it will work with the same functionality.
 
 ### Effects:
 
-- As a user I want to see the hover effect on the filter icons so that I can see there is interaction wih those elements.
-- As a user I want to see the hover effect on the social links so that I can see there is interaction wih that element.
+- As a user I want to see the hover effects on the icons so that I can see there is interaction wih those elements.
 
 ### Social links:
 
 - As a user, I want click on the social links so that it can be open in a new tab.
 
+### Navigation
+
+- As a user, I want to navigate between the Place Finder page and the Contact page with the given Envelop and Home icon.
+
 ## Features
 
 With this page you can find a museums, restaurants and bars around that area that you give in the search field.
+If you finished you search you can reset the process with clicking on the reset button.
+The contact site and the email sending functionality is up and running, so I will get the message, and the sender will get a copy of their details.
  
 ### Existing Features
-- Field checking:
-    - If the input search field is empty and I click on one of the filter button, I get alert JavaScript message about that empty field
-- Icons:
-    - To click on the Museum icon you get back museums around the given city
-    - To click on the Restaurant icon you get back restaurants around the given city
-    - To click on the Bar icon you get back bars around the given city 
-- Button:    
-    - If in the first round we find more than 20 places the "More result" button become active 
-    - If there are no more result, the "More result" button become disabled
-    - If there is no result around the area at all the "More result" button become disabled
-- Hover effects:
-    - Filter section
-        - Museum
-        - Restaurant
-        - Bar
-    - Social links
-        - Github
-        - LinkedIn
-- Social links:
-    - You can reach my social sites:
-        - GitHub
-        - LinkedIn
+
+- In General:
+    - Navigation:
+        - Between PlaceFinder page (with Message icon) and the Contact page (with Home icon)
 - Responsive:
     - The page is responsive, usable and looks good on the below resolution:
         - Phones less than 768px
         - Tablets 768px and Up
         - Desktops 992ox and Up
         - Large desktops 1200px and Up
+
+- Place Finder page
+    - Field checking:
+        - If the input search field is empty and I click on one of the filter button, I get alert an alert message about that empty field
+    - Icons:
+        - To click on the Museum icon you get back museums around the given city
+        - To click on the Restaurant icon you get back restaurants around the given city
+        - To click on the Bar icon you get back bars around the given city 
+    - Button:    
+        - If in the first round we find more than 20 places the "More result" button become active 
+        - If there are no more result, the "More result" button become disabled
+        - If there is no result around the area at all the "More result" button become disabled
+        - I can reset the search with the reset button
+- Contact page:
+    - Field checking (Every field is required)
+    - Email sending functionality
+    - Feedback with alert message about the sent email
         
 ## Technologies Used
 
@@ -142,16 +170,22 @@ You can find the testing document in the [Testing.md](https://github.com/IstvanG
 
 ## Deployment
 
+How I implement this project:
+
+Firstly I built the basic functionality one of my private repository until I get the first working version of website. 
+After this I copied the code snippets in this public repository, and explained the actual small pieces of the commits in the commit comment section.
+- Lesson learned: For the next project I should use the branching function and separate the dev and prod branches.
+
 - **Set up**:
     - I use local IDE for create the project, I installed the Git locally and synchronized my local IDE 
     with the local git. I use IntelliJ Pycharm for the front end development with its helpful built in deployment tools. 
     After I created a Git and GitHub repository, I could start to work and I could test my features locally.
-    I could see my changes locally to open my index.html file with the View/Open browser menu option.
+    I could see my changes locally to open my index.html file with the View/Open browser menu option in my local IDE.
     Here I could choose the required browser which I want to use. (Chrome, Mozilla, etc.)
 - **Commits**:
     - After every small piece and increment, I made commit to my local Git repository. After that in the end of the 
     bigger section that gives value to my project I pushed my modification to my online GitHub repository.
-    - For the development I only use one branch called "master" as there were not need more branch.
+    - For the development I only use one branch called "master".
 - **Local and online deployment**
     - Locally: It is very easy to clone repository from my account if you follow these steps:
         1. Follow this link [Project GitHub repository](https://github.com/IstvanGercsak/PlaceFinder-SecondMilestoneProject) 

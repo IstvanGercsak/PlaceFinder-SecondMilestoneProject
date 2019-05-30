@@ -3,17 +3,10 @@
 ##############################################################
 
 Todo List:
-- Description: The page working on specific resolutions
+
 - Testing User Stories
 - Test Scenarios for Non-functional testing
 - Tests in BDD format(How to test)
-- Reset button(documentation)
-- Contact Page
-- Reset button(functionality)
-- Contact Page
-- Set up the EmailJS
-- Explain commit
-- Mockups(Create new for the contact page and expand the existing one)
 
 ##############################################################
 
@@ -28,8 +21,9 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
         - The ease of use and learn to use the website
     - Reliability:
         - Stable and consistent result
-- HTML validator
-- CSS validator
+- [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validator:
+
+    - With these validator I was ensured that after the scanning this code it does not shows me any detected errors.
 
 - Responsive:
     - I grab the edge of the browser and modify the resolution. After this the website is still usable and looks good.
