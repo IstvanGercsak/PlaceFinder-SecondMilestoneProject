@@ -1,4 +1,4 @@
-#Testing
+# Testing
 
 Thanks to the "GitHub Pages" option on the GitHub website everybody can reach my website with clicking on the [link](https://istvangercsak.github.io/PlaceFinder-SecondMilestoneProject/)
 
