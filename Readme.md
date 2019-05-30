@@ -4,7 +4,7 @@
 This website was made as my second Milestone project at [Code Institute](https://codeinstitute.net/).
 The main goal was to create a simple website which is using the technologies that I learned in the second phase and heavily based on JavaScript and its jQuery library and also on Google API libraries.
 The website itself help to us to find cities around the world and we get back a list of Museums, Restaurants and Bars around that area.
-Moreover we can see those places position on the Map with Markers to find them and plan holiday more easily around that area.
+Moreover we can see those place's position on the Map with Markers to find them and plan holiday more easily around that area.
 The site is a single page website therefore very simple and easy to use and don't need any special technical skills to use it.  
 After we give a destination there is only one click and we get back results. It is also easy to use with one hand when we check it on our phones.
 There is another page called contact page with working email sending function. Hence if somebody want to contact me it is possible to do it.
@@ -16,7 +16,44 @@ This website is created for everybody who want to use it to find a good holiday 
 I used bright colors and background to ensure that this site has a user friendly and smooth surface.
 The website is responsive so it can be used also on PC, Tablet or mobile device with the same functionality respectively.
 
-## UI
+### User Stories
+
+#### Place Finder Page
+
+- As a user, I want to get feedback if the searching field is empty
+- As a user, I want to find cities for holiday destinations
+- As a user, I want to find museums around the searched city
+- As a user, I want to find restaurants around the searched city
+- As a user, I want to find bars around the searched city
+- As a user, I want to see the other opportunity around the city without type the city again
+- As a user, I want to see more result if there are more
+- As a user, I want to reset my search
+
+#### Contact Page
+
+- As a user, I want to send a message to the creator of the site.
+- As a user, I want to receive an auto-generated message from the creator of the site with my given details.
+- As a user, I want to get feedback whether I fill the fields in wrong type.
+- As a user, I want to get feedback whether I miss a one of the required field.
+- As a user, I want to get feedback whether the message is sent or not.
+
+#### Responsive:
+
+- As a user, I want to use the website on Pc, Tablet and Mobile Phone so that on different devices it will work with the same functionality.
+
+#### Effects:
+
+- As a user I want to see the hover effects on the icons so that I can see there is interaction wih those elements.
+
+#### Social links:
+
+- As a user, I want click on the social links so that it can be open in a new tab.
+
+#### Navigation
+
+- As a user, I want to navigate between the Place Finder page and the Contact page with the given Envelop and Home icon.
+
+#### UI
 
 - In General:
     - Font:
@@ -68,43 +105,6 @@ The website is responsive so it can be used also on PC, Tablet or mobile device 
     ![Home page](Mockup/PlaceFinder.png)
     - **Contact page**:
     ![Contact page](Mockup/ContactPage.png)
-
-## User Stories
-
-### Place Finder Page
-
-- As a user, I want to get feedback if the searching field is empty
-- As a user, I want to find cities for holiday destinations
-- As a user, I want to find museums around the searched city
-- As a user, I want to find restaurants around the searched city
-- As a user, I want to find bars around the searched city
-- As a user, I want to see the other opportunity around the city without type the city again
-- As a user, I want to see more result if there are more
-- As a user, I want to reset my search
-
-### Contact Page
-
-- As a user, I want to send a message to the creator of the site.
-- As a user, I want to receive an auto-generated message from the creator of the site with my given details.
-- As a user, I want to get feedback whether I fill the fields in wrong type.
-- As a user, I want to get feedback whether I miss a one of the required field.
-- As a user, I want to get feedback whether the message is sent or not.
-
-### Responsive:
-
-- As a user, I want to use the website on Pc, Tablet and Mobile Phone so that on different devices it will work with the same functionality.
-
-### Effects:
-
-- As a user I want to see the hover effects on the icons so that I can see there is interaction wih those elements.
-
-### Social links:
-
-- As a user, I want click on the social links so that it can be open in a new tab.
-
-### Navigation
-
-- As a user, I want to navigate between the Place Finder page and the Contact page with the given Envelop and Home icon.
 
 ## Features
 
