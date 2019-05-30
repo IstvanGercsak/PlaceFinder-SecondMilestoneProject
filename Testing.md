@@ -1,37 +1,29 @@
 #Testing
 
-##############################################################
-
-Todo List:
-
-- Testing User Stories
-- Test Scenarios for Non-functional testing
-- Tests in BDD format(How to test)
-
-##############################################################
-
 Thanks to the "GitHub Pages" option on the GitHub website everybody can reach my website with clicking on the [link](https://istvangercsak.github.io/PlaceFinder-SecondMilestoneProject/)
 
 I prefer the GitHub Pages option instead of the Cloud9 because it is stable and available 24/7.
 
 **Test types:**
 - Manual tests
-- Non-Functional tests (usability, reliability)
-    - Usability:
-        - The ease of use and learn to use the website
-    - Reliability:
-        - Stable and consistent result
+    - Non-Functional tests
+        - **Usability:** Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users. 
+        This can be seen as an irreplaceable usability practice, since it gives direct input on how real users use the system. 
+        Shortly: The ease of use and learn to use the website
+        - **Reliability:** Reliability testing is defined as a software testing type, that checks whether the software can 
+        perform a failure-free operation for a specified period of time in a specified environment. 
+            - Stable and consistent result
+            - I will get the same result even if I search for the place on Pc, Tablet or Mobile Phone.
+            - See test cases under the "Responsive" section 
 - [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validator:
-
     - With these validator I was ensured that after the scanning this code it does not shows me any detected errors.
 
-- Responsive:
-    - I grab the edge of the browser and modify the resolution. After this the website is still usable and looks good.
-    - Chrome developer tools: details below at the **Chrome Developer Tool** section
+### Testing the user stories:
+#### Place Finder Page:
 
-- Field checking:
-
-    - I don't fill the search field and I click on he <filter_icon>. Alert message will appear.
+- Scenario: As a user, I want to get feedback if the searching field is empty
+    - I don't fill the search field and I click on he <filter_icon>. 
+    - Alert message is appears.
 
 |filter_icon|
 |:---------:|
@@ -39,19 +31,151 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 |Restaurant |
 |Bars       |
 
-- Effects:
+- Scenario: As a user, I want to find cities for holiday destinations
+    - I type a holiday destination into the search field
+    - I choose a city from the drop-down
+    - I click on the <filter_icon>
+    - I get back the city filtered by the <filter_icon>
+    
+|filter_icon|
+|:---------:|
+|Museum     |
+|Restaurant |
+|Bars       |
 
-    - I hover my mouse over the social links and I can see the transition effect
-    - I hover my mouse over the filter icons and I can see the transition effect
-    - After I chose my destination and my filter that page will scroll down to the map
+- As a user, I want to see the other opportunity around the city without type the city again
+    - I type a holiday destination into the search field
+    - I choose a city from the drop-down
+    - I click on the <filter_icon>
+    - I get back the city filtered by the<filter_icon>
+    - I click another <filter_icon>
+    - I get back <filter_icon> from the given city
 
-- Social link
-    - I click on the <social_link> social link and the page will open in a new tab
+|filter_icon|
+|:---------:|
+|Museum     |
+|Restaurant |
+|Bars       |
+
+- Scenario: As a user, I want to find <sight> around the searched city
+    - I type a holiday destination into the search field
+    - I choose a city from the drop-down
+    - I click one of the <sight>
+    - I get back a list of <sight> in the given destination city
+
+|sight      |
+|:---------:|
+|Museum     |
+|Restaurant |
+|Bars       |
+
+- Scenario: As a user, I want to see more result if there are more
+    - I type a holiday destination into the search field
+    - I choose a city from the drop-down
+    - I get back more result than 20
+    - The More result button is active
+    - I click on the More result button
+    - Additional 20 places are appearing
+    
+- Scenario: As a user, I want to reset my search
+    - I type a holiday destination into the search field
+    - I choose a city from the drop-down
+    - I get back the result
+    - The Reset button appear
+    - I click on the Reset button
+    - The map and the result are disappear the search field became empty and the we go back on the top of the page 
+
+#### Contact Page:
+
+Scenario: As a user, I want to send a message to the creator of the site.
+    - I fill the required field
+    - I click on the "Send Email" button
+    - I get back alert message about the success of the sending
+    
+Scenario: As a user, I want to receive an auto-generated message from the creator of the site with my given details.
+    - I fill the required field
+    - I click on the "Send Email" button
+    - I get back alert message about the success of the sending
+    - I checked my given email address inbox
+    - I see there is an autogenerated message from the site 
+    
+Scenario: As a user, I want to get feedback whether I fill the fields in wrong type.
+    - I fill email field without "@" sign
+    - I click on the "Send Email" button
+    - I get feedback about the wrong format
+
+Scenario: As a user, I want to get feedback whether I miss a one of the required field.
+    - I miss to fill the <required_field>
+    - I click on the Send Email button
+    - I get feedback about the missing field 
+
+|required_field|
+|:------------:|
+|Name          |
+|Email         |
+|Phone         |
+|Description   |
+
+Scenario: As a user, I want to get feedback whether the message is sent or not.
+    - I fill the required field
+    - I click on the "Send Email" button
+    - There <is_problem> with the sending 
+    - I will get back an alert message about the <alert_message>
+    
+|is_problem    |alert_message |
+|:------------:|:------------:|
+|is not problem|Success       |
+|is problem    |Fail          |
+    
+#### Responsive:
+
+- I grab the edge of the browser and modify the resolution. After this the website is still usable and looks good.
+- Chrome developer tools: details below at the **Chrome Developer Tool** section
+- I test the website with different devices (Pc, Tablet, Mobile phone)
+
+#### Effects:
+
+Scenario: As a user I want to see the hover effects on the icons so that I can see there is interaction wih those elements.
+    - I hover my mouse over the <icon> 
+    - I can see the transition effect
+
+|icon      |
+|:--------:|
+|Museum    |
+|Restaurant|
+|Bar       |
+|Mail      |
+|GitHub    |
+|LinkedIn  | 
+|Home      |
+|Send Email (button)|
+
+- Scenario: After clicking the filter icon the map direct to the map
+    - I type a destination
+    - I choose a destination
+    - I click one of the filter button
+    - The page will direct me to the map
+
+#### Social links:
+
+- I click on the <social_link> social link and the page will open in a new tab
         
 |social_link|
 |:---------:|
 |GitHub     |
 |LinkedIn   |
+
+#### Navigation:
+
+Scenario: As a user, I want to navigate between the Place Finder page and the Contact page with the given Envelop and Home icon.
+    - I am on the <start_page> and I click on the <navigation_icon> icon
+    - I arrive on the <arrival_page>
+    
+|start_page       |arrival_page     |navigation_icon|
+|:---------------:|:---------------:|:-------------:|
+|Place Finder page|Contact page     |Envelope       |
+|Contact page     |Place Finder page|House          |
+
 
 **Tested browsers:**
  - Chrome
@@ -71,8 +195,6 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
     - Large desktop to desktop (Tested pixel width values: 1201px, 1200px, 1199px)
     - Desktop to tablet (Tested pixel width values: 993px, 992px, 991px)
     - Tablet to phone (Tested pixel width values: 769px, 768px, 767px)
-- Phone and Tablet resolution:
-    - Usage on the different device resolutions like "Pixel 2" and "iPad"
 - Console log error checking on the page during the testing
  
 **Testing people:**

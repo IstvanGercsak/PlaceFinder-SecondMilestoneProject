@@ -78,6 +78,7 @@ The website is responsive so it can be used also on PC, Tablet or mobile device 
 - As a user, I want to find museums around the searched city
 - As a user, I want to find restaurants around the searched city
 - As a user, I want to find bars around the searched city
+- As a user, I want to see the other opportunity around the city without type the city again
 - As a user, I want to see more result if there are more
 - As a user, I want to reset my search
 
