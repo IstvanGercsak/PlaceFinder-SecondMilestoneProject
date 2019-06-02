@@ -140,7 +140,16 @@ The contact site and the email sending functionality is up and running, so I wil
     - Field checking (Every field is required)
     - Email sending functionality
     - Feedback with alert message about the sent email
-        
+
+### Features Left to Implement
+
+- Pagination:
+    - This feature wasn't implemented because from the google external places library has only nextPage method. 
+    Because of this I didn't find a parameter or function that would have helped me to control the pagination to backward.
+    See more information [here](https://developers.google.com/maps/documentation/javascript/reference/3.36/places-service#PlaceSearchPagination)
+- Test automation with Jasmine:
+    - Testing with Jasmine was an option but I didn't use it. Because of the external libraries and API-s I should have create Mocks locally that create a huge overhead for this small site.
+
 ## Technologies Used
 
 - [HTML5](https://www.w3.org/html/)
