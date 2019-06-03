@@ -12,6 +12,23 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Header */
+
+.header-container {
+    background: #3B4C6D;
+}
+
+.header-container, a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.envelop {
+    text-align: right;
+    font-size: 25px;
+    font-weight: 700;
+}
+
 /* Simple text */
 
 h1 {
@@ -155,7 +172,6 @@ h5 {
 footer {
     background-color: #435e80;
     opacity: 0.9;
-    /*position: fixed;*/
     left: 0;
     bottom: 0;
     text-align: center;
@@ -197,8 +213,6 @@ footer p {
     color: #091a8d;
 }
 
-
-
 /*
 ###########################
 ###### CONTACT PAGE #######
@@ -227,7 +241,7 @@ footer p {
 }
 
 .form-position {
-    margin: 2% auto ;
+    margin: 2% auto;
     max-width: 60%;
     text-align: center;
 }
