@@ -165,6 +165,8 @@ h5 {
     padding-left: 8px;
     padding-right: 10px;
     margin: 0 auto 15px auto;
+    background: #206f74;
+    border: 2px solid #206f74;
 }
 
 /* Footer */
@@ -218,6 +220,7 @@ footer p {
 ###### CONTACT PAGE #######
 ###########################
 */
+
 .contact-container {
     text-align: center;
 }

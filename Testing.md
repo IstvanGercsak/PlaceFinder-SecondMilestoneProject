@@ -184,7 +184,7 @@ I prefer the GitHub Pages option instead of the Cloud9 because it is stable and 
 
 **Testing Tools:**
  - Chrome browser built-in developer tool
- - PC with HD resolution (with real usage)
+ - PC with full HD resolution (with real usage)
  - Mobile Phones: 
     - iPhone SE
     - Google Pixel 3
